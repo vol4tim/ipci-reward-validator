@@ -1,0 +1,20 @@
+{
+  "DEBUG": false,
+  "SUBSTRATE": {
+    "host": "wss://ipci.rpc.robonomics.network",
+    "types": {
+      "Record": "Vec<u8>",
+      "EverUSDBalance": "u64",
+      "BondPeriod": "u64"
+    }
+  },
+  "DB": {
+    "dialect": "sqlite",
+    "path": "files/database.sqlite"
+  },
+  "PRIVATE_ADDRESS": "",
+  "PRIVATE": "",
+  "INFURA": "https://rinkeby.infura.io/v3/",
+  "K_REWARD": 0.01,
+  "XRT": ""
+}
